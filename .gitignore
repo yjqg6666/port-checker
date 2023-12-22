@@ -1,7 +1,4 @@
 .idea
 vendor
-ncli
-build
 port-checker
-
 dist/
