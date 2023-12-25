@@ -41,7 +41,7 @@ func defineArg() {
 	flag.BoolVar(&GVersion, "version", false, "version")
 	flag.UintVar(&GTimeout, "timeout", 5, "timeout in seconds")
 	flag.UintVar(&GInterval, "interval", 5, "interval in seconds")
-	flag.UintVar(&GRetry, "retry", 5, "max retry numbers")
+	flag.UintVar(&GRetry, "retry", 1, "retry numbers")
 	flag.Usage = usage
 }
 
