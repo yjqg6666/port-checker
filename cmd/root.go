@@ -78,7 +78,7 @@ func init() {
 
 func RootExecute() {
 	if GVerbose {
-		fmt.Printf("Check host: %s %s port: %d\n", GHost, GType, GPort)
+		fmt.Printf("Check host: %s %s port: %d\t", GHost, GType, GPort)
 		fmt.Printf("timeout: %d, interval %d, retry: %d\n", GTimeout, GInterval, GRetry)
 	}
 
