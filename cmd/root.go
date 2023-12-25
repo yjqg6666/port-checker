@@ -11,7 +11,7 @@ import (
 
 const (
 	AppName    = "port-checker"
-	AppVersion = "v0.1.0"
+	AppVersion = "v0.1.2"
 )
 const (
 	ExitCodeOk              = 0  //man sysexits
